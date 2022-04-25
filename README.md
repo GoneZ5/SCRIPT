@@ -21,3 +21,5 @@ python train.py --dataset_name python --model_name YOUR_MODEL_NAME
 python test.py --dataset_name python --beam_size 5 --model_name YOUR_MODEL_NAME
 ```
 
+### Acknowledgement: 
+The implementation is based on https://github.com/wasiahmad/NeuralCodeSum and https://github.com/gingasan/sit3.
