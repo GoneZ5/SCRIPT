@@ -369,7 +369,7 @@ class Transformer(nn.Module):
                                                  summ_pad_mask,
                                                  summ_emb)
         decoder_outputs = layer_wise_dec_out[-1]
-        context_attn = attns[-1]
+        context_attn = attns['std'][-1]
 
         loss = dict()
         target = tgt_seq[:, 1:].contiguous()
